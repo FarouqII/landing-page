@@ -105,3 +105,21 @@ img {
 .item > p {
     text-align: center;
 }
+
+/* Section Three */
+
+.section-three {
+    background-color: #E5E7EB;
+    padding: 50px 300px;
+}
+
+.quote {
+    font-style: italic;
+    color: #1F2937;
+    font-size: 20px;
+}
+
+.author {
+    text-align: right;
+    font-weight: 700;
+}
