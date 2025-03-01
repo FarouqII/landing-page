@@ -157,3 +157,12 @@ img {
     border: 1px solid #E5E7EB;
     margin-left: auto;
 }
+
+/* Footer */
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 25px 150px;
+    text-align: center;
+}
