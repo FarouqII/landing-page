@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.section-one {
+    background-color: #1F2937;
+    padding: 0 200px 100px 200px;
+    font-family: Roboto, sans-serif;
+}
+
+.title {
+    display: flex;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.title > ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+    margin-left: auto;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.sub-s1 {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.sub-s1 > div {
+    width: 400px;
+}
+
+.sub-s1 > div > h1 {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 42px;
+    margin-bottom: 0;
+}
+
+.sub-s1 > div > p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.sub-s1 > img {
+    margin-left: auto;
+    height: 250px;
+    width: 500px
+}
+
+.signup-btn {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 5px 25px;
+    border: transparent;
+    border-radius: 4px;
+}
