@@ -7,12 +7,14 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: 0;
+    font-family: Roboto, sans-serif;
 }
+
+/* Section One */
 
 .section-one {
     background-color: #1F2937;
     padding: 0 200px 100px 200px;
-    font-family: Roboto, sans-serif;
 }
 
 .title {
@@ -67,4 +69,39 @@ body {
     padding: 5px 25px;
     border: transparent;
     border-radius: 4px;
+}
+
+/* Section Two */
+
+.section-two {
+    padding: 0 400px;
+}
+
+.section-two, .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-two > ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 48px;
+}
+
+.image {
+    width: 150px;
+    border: 1px solid #3882F6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.item > p {
+    text-align: center;
 }
