@@ -17,6 +17,10 @@
     src: url(resources/Ferrari-SansMedium.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -27,7 +31,7 @@ body {
 
 /* Section One */
 
-.section-one {
+#section-one {
     background-image: url(resources/landing-page-s1-bg-5.jpg);
     background-size: cover;
     background-position: center;
@@ -54,6 +58,18 @@ body {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: normal;
+}
+
+.title > ul > li > a {
+    text-decoration: none;
+    color: #E5E7EB;
+    display: inline-block;
+    transition: transform 0.25s ease-in-out;
+}
+
+.title > ul > li > a:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
 }
 
 .title > img {
@@ -95,17 +111,22 @@ body {
 
 /* Section Two */
 
-.section-two {
-    padding: 0 400px;
+#section-two {
+    padding: 0 400px 50px 400px;
 }
 
-.section-two, .item {
+#section-two > h1 {
+    font-family: "Bold-font";
+    text-align: center;
+}
+
+#section-two, .item {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.section-two > ul {
+#section-two > ul {
     display: flex;
     list-style: none;
     padding: 0;
@@ -113,24 +134,47 @@ body {
 }
 
 .image {
-    width: 150px;
-    border: 1px solid #3882F6;
-    border-radius: 10px;
-    overflow: hidden;
+    width: 200px;
 }
 
 img {
     width: 100%;
     height: 100%;
+    transition: filter 0.5s ease-in-out;
 }
 
-.item > p {
+.item {
+    position: relative;
+    justify-content: center;
+}
+
+.item > a {
+    font-family: "Regular-font";
+    color: #E5E7EB;
     text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    align-self: self;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.item:hover {
+    cursor: pointer;
+}
+
+.item:hover a {
+    opacity: 1;
+    visibility: visible;
+}
+
+.item:hover img {
+    filter: blur(7px);
 }
 
 /* Section Three */
 
-.section-three {
+#section-three {
     background-color: #E5E7EB;
     padding: 50px 300px;
 }
@@ -148,7 +192,7 @@ img {
 
 /* Section Four */
 
-.section-four {
+#section-four {
     padding: 50px 200px;
 }
 
