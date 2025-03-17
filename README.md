@@ -7,7 +7,6 @@ This is a simple landing page project that helped me practice HTML and CSS, with
 - Structured and semantic HTML  
 - Styled with CSS  
 - Smooth CSS transitions for a better user experience  
-- Clean and minimal design  
 - Adaptive for different screen sizes  
 
 ## Technologies Used
@@ -16,8 +15,7 @@ This is a simple landing page project that helped me practice HTML and CSS, with
 
 ## Lessons Learned
 - Improved my understanding of Flexbox for layout design  
-- Gained experience using CSS transitions for smooth animations  
-- Practiced creating a responsive page without external frameworks  
+- Gained experience using CSS transitions for smooth animations    
 - Strengthened my CSS skills in alignment, spacing, and positioning  
 
 ## Usage
