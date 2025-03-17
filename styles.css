@@ -196,6 +196,7 @@ img {
     color: #E5E7EB;
     font-family: "Regular-Font";
     align-self: flex-end;
+    margin-bottom: 0;
 }
 
 .LH44 > .drivers-text > .statistics {
@@ -228,6 +229,7 @@ img {
     color: #E5E7EB;
     font-family: "Regular-Font";
     align-self: flex-start;
+    margin-top: 0;
 }
 
 .CL16 .drivers-text {
@@ -265,34 +267,61 @@ img {
 /* Section Four */
 
 #section-four {
-    padding: 50px 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding: 50px 150px;
+    background-color: black;
+    color: #E5E7EB;
+    font-family: "Regular-Font", sans-serif;
 }
 
-.sign-up {
+.calendar {
     display: flex;
-    background-color: #3882F6;
-    color: #F9FAF8;
-    padding: 15px 100px;
-    gap: 50px;
-    border: transparent;
-    border-radius: 5px;
+    flex-direction: column;
     align-items: center;
 }
 
-.sign-up > div > p:first-child {
-    font-weight: 700;
-    font-size: 1.2em;
-    margin-bottom: -10px;
+th {
+    padding: 20px;
 }
 
-.sign-up > div > p:last-child {
-    font-size: 0.8em;
+.empty {
+    visibility: hidden;
 }
 
-.sign-up > button {
-    display: block;
-    border: 1px solid #E5E7EB;
+.circuit {
+    width: 350px;
+    height: auto;
+}
+
+.upcoming {
+    width: 50%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: rgba(61, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.upcoming > ul {
+    list-style: none;
+    padding: 0;
+}
+
+.upcoming > ul > li {
+    display: flex;
+    align-items: center;
+}
+
+.upcoming > ul > li > p {
     margin-left: auto;
+}
+
+.current {
+    border: 1px solid transparent;
+    border-radius: 25%;
+    background-color: rgba(61, 0, 0, 0.5);
+    padding: 0;
 }
 
 /* Footer */
